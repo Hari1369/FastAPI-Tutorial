@@ -1,0 +1,116 @@
+{
+    "P001":
+        {
+            "name": "Aarav Sharma",
+            "city": "Mumbai",
+            "age": 28,
+            "gender": "Male",
+            "height": 175,
+            "weight": 72,
+            "bmi": 23.5,
+            "verdict": "Normal"
+        },
+    "P002" :
+        {
+            "name": "Priya Das",
+            "city": "Kolkata",
+            "age": 24,
+            "gender": "Female",
+            "height": 162,
+            "weight": 54,
+            "bmi": 20.6,
+            "verdict": "Normal"
+        },
+    "P003" :
+        {
+            "name": "Rahul Verma",
+            "city": "Delhi",
+            "age": 35,
+            "gender": "Male",
+            "height": 168,
+            "weight": 85,
+            "bmi": 30.1,
+            "verdict": "Obese"
+        },
+    "P004" :
+        {
+            "name": "Sneha Iyer",
+            "city": "Chennai",
+            "age": 30,
+            "gender": "Female",
+            "height": 158,
+            "weight": 48,
+            "bmi": 19.2,
+            "verdict": "Normal"
+        },
+    "P005" :
+
+        {
+            "name": "Vikram Singh",
+            "city": "Jaipur",
+            "age": 42,
+            "gender": "Male",
+            "height": 180,
+            "weight": 95,
+            "bmi": 29.3,
+            "verdict": "Overweight"
+        },
+    "P006" :
+
+        {
+            "name": "Ananya Roy",
+            "city": "Bengaluru",
+            "age": 27,
+            "gender": "Female",
+            "height": 165,
+            "weight": 60,
+            "bmi": 22.0,
+            "verdict": "Normal"
+        },
+    "P007" :
+
+        {
+            "name": "Karan Mehta",
+            "city": "Ahmedabad",
+            "age": 31,
+            "gender": "Male",
+            "height": 172,
+            "weight": 50,
+            "bmi": 16.9,
+            "verdict": "Underweight"
+        },
+    "P008" :
+
+        {
+            "name": "Meera Nair",
+            "city": "Hyderabad",
+            "age": 29,
+            "gender": "Female",
+            "height": 170,
+            "weight": 78,
+            "bmi": 27.0,
+            "verdict": "Overweight"
+        },
+    "P009" :
+        {
+            "name": "Rohan Patel",
+            "city": "Pune",
+            "age": 26,
+            "gender": "Male",
+            "height": 177,
+            "weight": 68,
+            "bmi": 21.7,
+            "verdict": "Normal"
+        },
+    "P010" :
+        {
+            "name": "Divya Kapoor",
+            "city": "Lucknow",
+            "age": 33,
+            "gender": "Female",
+            "height": 160,
+            "weight": 90,
+            "bmi": 35.2,
+            "verdict": "Obese"
+        }
+}
