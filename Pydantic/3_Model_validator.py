@@ -12,7 +12,6 @@ class Patient(BaseModel):
     allergies       : List[str] 
     contact_details : Dict[str, str]
 
-
     @model_validator(mode="after")
     def validate_emergency_patient(cls, model):
         if model.age > 60 and 'emergency' not in model.contact_details:
