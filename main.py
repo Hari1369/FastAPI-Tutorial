@@ -112,7 +112,25 @@ def create_patien(patient: Patient):
 
     return JSONResponse(status_code=201, content={'message':'Patient Created Successfully'})
 
-
+# ==================================================>
+# Load JSON
+#    ↓
+# Get Existing Patient
+#    ↓
+# Get Only Updated Fields
+#    ↓
+# Merge Updated Fields Into Existing Data
+#    ↓
+# Convert To Pydantic Object
+#    ↓
+# Recalculate BMI + Verdict
+#    ↓
+# Convert Back To Dictionary
+#    ↓
+# Store In Main Data
+#    ↓
+# Save JSON File
+# ==================================================>
 @app.put('/update/{patient_id}')
 def update_patient(patient_id : str, patient_update : Patient_Update):
     data = load_data()
@@ -138,6 +156,8 @@ def update_patient(patient_id : str, patient_update : Patient_Update):
     data[patient_id] = existing_patient_info
     save_data(data)
     return JSONResponse(status_code=200, content={'message':"Patiend Updated Successfull"})
+
+
 
 
 @app.get('/delete/{patiend_id}')
